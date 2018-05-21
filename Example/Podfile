@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'wgCommonKit_Example' do
+  pod 'wgCommonKit', :path => '../'
+
+  target 'wgCommonKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
